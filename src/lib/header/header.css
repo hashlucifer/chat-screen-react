@@ -1,0 +1,39 @@
+.Header {
+    display: flex;
+    flex-direction: row;
+}
+
+.Header>.icon {
+    display: flex;
+    align-items: center;
+}
+
+.Header>.image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Header>.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Header>.subText {
+    display: flex;
+}
+
+.Header.vertical {
+    flex-direction: column;
+}
+
+.Header.vertical>.subText {
+    align-items: center;
+    justify-content: center;
+}
+
+.Header.vertical>.text {
+    align-items: center;
+    justify-content: center;
+}

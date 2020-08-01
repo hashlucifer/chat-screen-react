@@ -1,0 +1,96 @@
+html, #root {
+  display: flex;
+  flex: 1;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 100%;
+  height: 100%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.App {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.AppBody {
+  display: flex;
+  overflow: auto;
+  flex: 1
+}
+
+.AppBody>.UserNavigation {
+  display: flex;
+  flex: 1;
+}
+
+.AppBody>.UserSearch {
+  display: flex;
+  flex: 1;
+}
+
+.AppBody>.UserConversation {
+  display: flex;
+  flex: 3;
+}
+
+.Nav {
+  display: flex;
+  flex-direction: row;
+}
+
+.Nav>.main {
+  display: flex;
+  flex: 1;
+  background-color: #45c8dc;
+}
+
+.Nav>.main>.left {
+  display: flex;
+  flex: 1;
+  padding: 1rem;
+  align-items: center;
+}
+
+.Nav>.main>.left>.menu-text {
+  padding: 0rem 1rem;
+}
+
+.Nav>.main>.left>.menu-text>.text {
+  padding: 0rem 1rem;
+  color: white
+}
+
+.Nav>.main>.center {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.Nav>.main>.center>.menu-logo {
+  padding: 1rem 1rem;
+}
+
+.Nav>.main>.right {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+.Nav>.main>.right>.menu-search {
+  padding: 0rem 1rem;
+}

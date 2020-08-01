@@ -1,0 +1,65 @@
+.Conversation {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.Conversation>.nav {
+    background-color: #f6f7f9;
+    padding: 1.5rem;
+    height: 1.5rem;
+    display: flex;
+    /* max-height: 1.5rem; */
+}
+
+.Conversation>.nav>.text {
+    flex: 1;
+    color: grey
+    /* max-height: 1.5rem; */
+}
+
+.Conversation>.chat-box {
+    display: flex;
+    flex: 1;
+    overflow: auto;
+    border: 1px solid #dddddd;
+    border-right: 0;
+    border-left: 0;
+}
+
+.Conversation>.type {
+    display: flex;
+    max-height: 5rem;
+}
+
+.Conversation>.type>.text {
+    flex: 1 1;
+    padding: 1rem;
+    color: grey;
+    word-break: break-word;
+    min-height: 2rem;
+    display: flex;
+}
+
+.Conversation>.type>.text>.contentEditable {
+    /* border: 1px solid; */
+    overflow: auto;
+    display: flex;
+    flex: 1;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.Conversation>.type>.icon-space {
+    margin-left: 1rem;
+}
+
+.Conversation>.type>.icon-space>.icon {
+    top: -2rem;
+    right: 2rem;
+    float: right;
+    position: relative;
+    border-radius: 50%;
+    background-color: #35c3d9;
+    padding: 1rem;
+}

@@ -1,0 +1,52 @@
+.Messages {
+    display: flex;
+}
+
+.Messages.reverse {
+    flex-direction: row-reverse;
+}
+
+.Messages>.texts {
+    display: flex;
+    flex-direction: column;
+    padding-left: 1rem;
+}
+
+.Messages.reverse>.texts {
+    align-items: flex-end;
+    padding-left: 0rem;
+    padding-right: 1rem;
+}
+
+.Messages>.texts>.text {
+    padding: 0.7rem 2rem;
+    color: grey;
+    font-size: 0.9rem;
+    font-weight: bold;
+    width: fit-content;
+    background-color: #f0f1f0;
+    border-radius: 0 500rem 500rem 0 !important;
+    margin: 0.15rem;
+}
+
+.Messages.reverse>.texts>.text {
+    background-color: #45c8dc;
+    color: white;
+    border-radius: 500rem 0 0 500rem !important;
+}
+
+.Messages.reverse>.texts>.text:first-child {
+    border-radius: 500rem 500rem 0 500rem !important;
+}
+
+.Messages>.texts>.text:first-child {
+    border-radius: 500rem 500rem 500rem 0 !important;
+}
+
+.Messages.reverse>.texts>.text:last-child {
+    border-radius: 500rem 0 500rem 500rem !important;
+}
+
+.Messages>.texts>.text:last-child {
+    border-radius: 0 500rem 500rem 500rem !important;
+}

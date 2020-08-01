@@ -1,0 +1,10 @@
+.ChatBox {
+    margin: 1rem
+}
+
+.ChatBoxContainer {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
