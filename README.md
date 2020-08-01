@@ -1,8 +1,5 @@
 # chat-screen-react
-This is chat-box web created in react. The design/UX is from dribble (i lost the url, but i will update it soon once i get it). 
-
-<br/>
-You can use this application as a base to practice code anything like socket programming, infinite scroll and infinite reverse scroll.
+This is chat-box web created in react. The design/UX is from dribble (i lost the url, but i will update it soon once i get it). You can use this application as a base to practice code on anything like socket programming, infinite scroll and infinite reverse scroll.
 
 ## Sample View
 ![App Screenshot](./public/app-screenshot.png)
