@@ -1,5 +1,6 @@
 # chat-screen-react
-This is chat-box web created in react. The design/UX is from dribble (i lost the url, but i will update it soon once i get it). You can use this application as a base to practice code on anything like socket programming, infinite scroll and infinite reverse scroll.
+![Node.js CI](https://github.com/hashlucifer/chat-screen-react/workflows/Node.js%20CI/badge.svg)
+<br/>This is chat-box web created in react. The design/UX is from dribble (i lost the url, but i will update it soon once i get it). You can use this application as a base to practice code on anything like socket programming, infinite scroll and infinite reverse scroll.
 
 ## Sample View
 ![App Screenshot](./public/app-screenshot.png)
